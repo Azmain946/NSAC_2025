@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# NSAC 2025
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/5687a18c-a664-4a39-b50a-05b1f9fae1aa
+This project is a web application designed for the NASA Space Apps Challenge 2025. It serves as a platform for exploring and analyzing NASA's vast collection of scientific and technical publications. The application provides a user-friendly interface to search, visualize, and interact with the knowledge graph of publications, authors, and research categories.
 
-## How can I edit this code?
+## Architecture
 
-There are several ways of editing your application.
+The project is divided into two main parts:
 
-**Use Lovable**
+-   **Frontend:** A React application built with Vite and written in TypeScript. It uses Shadcn UI for components and Tailwind CSS for styling.
+-   **Backend:** A Python application built with FastAPI. It uses a PostgreSQL database and SQLAlchemy for ORM. It also uses LangChain for...
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5687a18c-a664-4a39-b50a-05b1f9fae1aa) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+-   **Search:** Search for publications by keyword, author, or category.
+-   **Knowledge Graph:** Visualize the relationships between publications, authors, and research categories in an interactive graph.
+-   **Q&A:** Ask questions about the publications and get answers from a language model.
+-   **Analytics:** View analytics and statistics about the publications and authors.
+-   **Publications:** View a list of publications and their details.
+-   **Categories:** Browse publications by research category.
 
-**Use your preferred IDE**
+## Frameworks and Libraries
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Frontend
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+-   **React:** A JavaScript library for building user interfaces.
+-   **Vite:** A build tool that aims to provide a faster and leaner development experience for modern web projects.
+-   **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+-   **Shadcn UI:** A collection of re-usable components for React.
+-   **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
+-   **React Router:** A standard library for routing in React.
+-   **Axios:** A promise-based HTTP client for the browser and Node.js.
 
-Follow these steps:
+### Backend
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+-   **FastAPI:** A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
+-   **SQLAlchemy:** The Python SQL toolkit and Object Relational Mapper.
+-   **PostgreSQL:** A powerful, open source object-relational database system.
+-   **LangChain:** A framework for developing applications powered by language models.
+-   **Uvicorn:** An ASGI server implementation, for use with FastAPI.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+-   **Node.js:** v22.x or later
+-   **npm:** v10.x or later
+-   **Python:** 3.10 or later
+-   **pip:** 23.x or later
 
-**Edit a file directly in GitHub**
+### Installation
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Frontend:**
 
-**Use GitHub Codespaces**
+1.  Navigate to the `frontend` directory: `cd frontend`
+2.  Install dependencies: `npm install`
+3.  Start the development server: `npm run dev`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Backend:**
 
-## What technologies are used for this project?
+1.  Navigate to the `backend` directory: `cd backend`
+2.  Create a virtual environment: `python -m venv venv`
+3.  Activate the virtual environment:
+    -   On Windows: `venv\Scripts\activate`
+    -   On macOS/Linux: `source venv/bin/activate`
+4.  Install dependencies: `pip install -r requirements.txt`
+5.  Create a `.env` file from the `.env.example` and update the environment variables.
+6.  Run the application: `uvicorn app.main:app --reload`
 
-This project is built with:
+## Usage
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Open your browser and navigate to the address provided by the frontend development server (usually `http://localhost:5173`).
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/5687a18c-a664-4a39-b50a-05b1f9fae1aa) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Contributions are welcome! Please follow the existing code style and submit a pull request.
