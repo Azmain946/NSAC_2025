@@ -14,18 +14,18 @@ We have collected our data mainly from **A list of 608 full-text open-access Spa
 
 ## About Our Project
 
-Our project **SpaceBio Explorer** is a publication summarization tool. It offers interactive search, filters, and the ability to browse publications by year, category, and subcategory. Each publication tab includes the title, authors, and keywords in the heading section. Abstracts and summaries are provided based on the user type (Scientist, Investor, or Mission Architect).
+Our project **SpaceBio Explorer** is a publication summarization tool. It offers interactive search, filters, and the ability to browse publications by year, category, and subcategory. Each publication tab includes the *title*, *authors*, and *keywords* in the heading section. *Abstract* and *summaries* are provided based on the user type (Scientist, Investor, or Mission Architect).
 
-There is also an AI-generated podcast section where two speakers discuss the publication. A knowledge graph is included, which can be zoomed in and out. Scientific Progress, Knowledge Gaps, and Consensus/Disagreement are presented as buttons with floating cards.
+There is also an AI-generated *podcast* section where two speakers discuss the publication. A *knowledge graph* is included, which can be zoomed in and out. *Scientific Progress, Knowledge Gaps, and Consensus/Disagreement* are presented as buttons with floating cards.
 
-For instant insights, users can access the AI-generated FAQ section. Quick Links allow direct access to the raw publication. Additionally, an AI-powered chatbot is available for asking custom questions about the publication.
+For instant insights, users can access the AI-generated *FAQ* section. *Quick Links* allow direct access to the raw publication. Additionally, an AI-powered *chatbot* is available for asking custom questions about the publication.
 
 ## Demo
 
-**Homepage**
+
 ![alt text](https://github.com/Azmain946/NSAC_2025/blob/main/Screenshot%202025-10-03%20162842.png?raw=true)
 
-**Publication Page**
+
 ![alt text](https://github.com/Azmain946/NSAC_2025/blob/main/Screenshot%202025-10-03%20162907.png?raw=true)
 
 
@@ -65,6 +65,12 @@ The project is divided into two main parts:
 -   **LangChain:** A framework for developing applications powered by language models.
 -   **Uvicorn:** An ASGI server implementation, for use with FastAPI.
 
+### Impact and Use Cases
+
+**Scientists** and **researchers** will use this tool to quickly digest complex biology publications, saving time while staying updated on the latest discoveries. **Mission architects** can explore biology-related insights crucial for designing safe and sustainable space missions. **Investors** benefit by identifying promising scientific directions and technologies with real-world or space applications. The interactive knowledge graph helps all users see connections between studies, gaps in research, and areas of consensus or disagreement.
+
+For **NASA**, this tool matters because it accelerates understanding of space biology, a field essential for long-duration human spaceflight and planetary exploration. By providing instant summaries, FAQs, and even AI-driven podcasts, it reduces the barrier to accessing and interpreting dense research. Globally, it fosters collaboration by making space biology knowledge more accessible to scientists across disciplines. Ultimately, this contributes to advancing space science, healthcare, and technology for the benefit of humanity.
+
 ## Getting Started
 
 ### Prerequisites
@@ -95,8 +101,20 @@ The project is divided into two main parts:
 
 ## Usage
 
-Open your browser and navigate to the address provided by the frontend development server (usually `http://localhost:5173`).
+Open your browser and navigate to the address provided by the frontend development server (usually `http://localhost:3000`).
 
-## Contributing
+## Contributions
+
+- Soab Mahmud: Built Backend
+- Shahin Rana: Built Frontend
+- Azmain Fieque: Designed UI 
 
 Contributions are welcome! Please follow the existing code style and submit a pull request.
+
+## Future Roadmap
+
+SpaceBio Explorer is built with React on the frontend and FastAPI on the backend, making it modular and scalable. The current integration with LLM-based AI services demonstrates strong potential, but future iterations could move toward fine-tuning or developing custom AI models trained on domain-specific space biology literature. This would improve accuracy, context-awareness, and trustworthiness of summaries and recommendations.
+
+For scalability, cloud deployment with containerization (Docker, Kubernetes) can handle increasing user demand from research institutions, universities, and space agencies worldwide. Improved user interaction features, such as personalized dashboards, collaboration tools, and citation management, could extend the platform’s utility. Integrating multimodal inputs—like visual data from experiments or astronaut health metrics—could open entirely new layers of insight.
+
+Beyond the hackathon, SpaceBio Explorer has the potential to become a global research hub for biology in space, bridging scientists, investors, and mission planners with actionable knowledge that supports NASA’s missions and advances global science.
