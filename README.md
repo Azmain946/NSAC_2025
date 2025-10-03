@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is a web application designed for the NASA Space Apps Challenge 2025. It serves as a platform for exploring and analyzing NASA's vast collection of scientific and technical publications. The application provides a user-friendly interface to search, visualize, and interact with the knowledge graph of publications, authors, and research categories.
+This project is a web application designed for the NASA Space Apps Challenge 2025 which is **Building Space Biology Knowledge Engine**. It serves as a platform for exploring and analyzing NASA's vast collection of scientific and technical publications. The application provides a user-friendly interface to search, visualize, and interact with the knowledge graph of publications, authors, and research categories.
 
 ## Data Source
 
