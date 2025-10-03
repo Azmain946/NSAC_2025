@@ -22,7 +22,7 @@ For instant insights, users can access the AI-generated FAQ section. Quick Links
 
 ## Demo
 
-![alt text] (Screenshot 2025-10-03 162842.png)
+![alt text] (https://github.com/Azmain946/NSAC_2025/blob/main/Screenshot%202025-10-03%20162842.png?raw=true)
 
 ## Architecture
 
