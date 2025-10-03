@@ -1,8 +1,28 @@
 # NSAC 2025
 
+## WebApp
+
+### Follow the link --> https://nasa-space-app-2025.vercel.app/
+
 ## Overview
 
 This project is a web application designed for the NASA Space Apps Challenge 2025. It serves as a platform for exploring and analyzing NASA's vast collection of scientific and technical publications. The application provides a user-friendly interface to search, visualize, and interact with the knowledge graph of publications, authors, and research categories.
+
+## Data Source
+
+We have collected our data mainly from **A list of 608 full-text open-access Space Biology publications** from NSAC website. We have also collected data from **National Library of Medicine (NIH)**, **Nature.com** etc.
+
+## About Our Project
+
+Our project **SpaceBio Explorer** is a publication summarization tool. It offers interactive search, filters, and the ability to browse publications by year, category, and subcategory. Each publication tab includes the title, authors, and keywords in the heading section. Abstracts and summaries are provided based on the user type (Scientist, Investor, or Mission Architect).
+
+There is also an AI-generated podcast section where two speakers discuss the publication. A knowledge graph is included, which can be zoomed in and out. Scientific Progress, Knowledge Gaps, and Consensus/Disagreement are presented as buttons with floating cards.
+
+For instant insights, users can access the AI-generated FAQ section. Quick Links allow direct access to the raw publication. Additionally, an AI-powered chatbot is available for asking custom questions about the publication.
+
+## Demo
+
+
 
 ## Architecture
 
@@ -20,7 +40,7 @@ The project is divided into two main parts:
 -   **Publications:** View a list of publications and their details.
 -   **Categories:** Browse publications by research category.
 
-## Frameworks and Libraries
+## Frameworks and Libraries (Technical Stacks)
 
 ### Frontend
 
