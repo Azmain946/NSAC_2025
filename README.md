@@ -56,7 +56,7 @@ The project is divided into two main parts:
 -   **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
 -   **React Router:** A standard library for routing in React.
 -   **Axios:** A promise-based HTTP client for the browser and Node.js.
--   **React-Force-Graph-2d:** A library for implementing graphs
+-   **React-Force-Graph-2d:** A library for implementing graphs.
 
 ### Backend
 
