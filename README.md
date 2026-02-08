@@ -106,9 +106,7 @@ Open your browser and navigate to the address provided by the frontend developme
 
 ## Contributions
 
-- Soab Mahmud: Built Backend
-- Shahin Rana: Built Frontend
-- Azmain Fieque: Designed UI 
+
 
 Contributions are welcome! Please follow the existing code style and submit a pull request.
 
